@@ -19,13 +19,6 @@ gem 'devise'
 gem 'cancancan'
 gem 'rails_admin_rollincode', '~> 1.0'
 
-group :production do
-  gem 'pg', '0.18.4'
-end
-group :development, :test do
-  gem 'sqlite3'
-  gem 'byebug', platforms: :mri
-end
 
 
 # Use jquery as the JavaScript library
